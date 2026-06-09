@@ -5,7 +5,7 @@ import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.experimental.FieldDefaults;
-import com.codingshuttle.projects.lovable_clone.entity.Project;
+import com.example.lovable_clone.entity.Project;
 
 import java.time.Instant;
 

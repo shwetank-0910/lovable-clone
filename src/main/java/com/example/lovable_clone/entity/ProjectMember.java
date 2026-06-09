@@ -1,6 +1,6 @@
 package com.example.lovable_clone.entity;
 
-import com.codingshuttle.projects.lovable_clone.enums.ProjectRole;
+import com.example.lovable_clone.enums.ProjectRole;
 
 import java.time.Instant;
 

@@ -1,6 +1,7 @@
-package com.codingshuttle.projects.lovable_clone.entity;
+package com.example.lovable_clone.entity;
 
-import com.codingshuttle.projects.lovable_clone.enums.MessageRole;
+
+import com.example.lovable_clone.enums.MessageRole;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;

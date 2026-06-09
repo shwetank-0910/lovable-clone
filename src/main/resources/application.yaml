@@ -1,3 +1,22 @@
 spring:
   application:
     name: lovable_clone
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/lovable_Clone_DB
+    username: root
+    password: Mysqldb@09
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 20
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+
+server:
+  port: 9096
